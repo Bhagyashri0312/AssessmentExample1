@@ -5,7 +5,7 @@ public class Methods {
         Dog dog = new Dog("Bobo", 4);
         System.out.println(dog.getName());
 
-        System.out.println(dog.bark("vov", 3,true));
+        System.out.println(dog.bark("vov", 5,true));
         System.out.println(dog.description());
         System.out.println(dog.description(true));
 
