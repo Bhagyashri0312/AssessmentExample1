@@ -1,15 +1,15 @@
 
 public class Dog {
-    private String name;
+    private String nameOfDog;
     private int numberOfLegs;
 
-    public Dog(String name, int numberOfLegs) {
-        this.name = name;
+    public Dog(String nameOfDog, int numberOfLegs) {
+        this.nameOfDog = nameOfDog;
         this.numberOfLegs = numberOfLegs;
     }
 
     public String getName() {
-        return name;
+        return nameOfDog;
     }
 
     public String bark(String bark, int numberOfTimes, boolean toUppercase) {
